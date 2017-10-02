@@ -34,9 +34,7 @@ body
 #mainnav .navbar-brand:focus
 {
 
-	color: #F7B100; 
-/* 	background: transparent; */
-	color : #18BC9C;
+	color: #F7B100; /*warna orange lebih gelep*/
 }
 /* memberi jarak spasi pada navbar nav */
 #mainnav .navbar-nav {
@@ -53,15 +51,13 @@ body
 /* menambahkan warna hover ketika mouse melewati/melihat item */
 #mainnav .navbar-nav li.nav-item a.nav-link:hover 
 {
-	/*background: white;*/
-	/* color: #FBC02D; */
-	background: #FBC02D;
+	background: #FBC02D; /*warna orange*/
 	outline: none; 
 }
 /* menambahkan on click/focus pada item navbar */
 #mainnav .navbar-nav li.nav-item a.nav-link:focus 
 {
-	background: #18BC9C;
+	background: #F7B100; /*warna orange lebih gelep*/
 }
 
 /* memberi warna pada item toggler */
@@ -75,13 +71,13 @@ body
 
 #mainnav .navbar-toggle:hover 
 {
-	color: #FBC02D;
+	color: #FBC02D; /*warna orange*/
 	background: transparent;
-	border-color: #FBC02D;
+	border-color: #FBC02D; /*warna orange*/
 }
 #mainnav .navbar-toggle:focus 
 {
-	color: #18BC9C;
+	color: #FBC02D; /*warna orange*/
 	border-color: white;
 }
 
@@ -106,6 +102,16 @@ body
   padding-top: 150px;
 }
 
+.garis2
+{
+  border : 0;
+  height: 2px;
+  background-color: white;
+  /*background-image: linear-gradient(to right,rgba(255,255,255,0),rgba(255,255,255,0.75),rgba(255,255,255,0));*/
+  max-width: 50px;
+  /* margin: 25px auto 30px; */
+  /* padding: 0; */
+}
 
 #profile-picture {
   padding-top: 10px;
@@ -128,15 +134,24 @@ body
   padding-top : 70px;
   background-size: cover;
   /* background-color: #18BC9C; */
-  background-image: url(assets/img/logo/pattern1.png);
+  background-image: url(assets/img/pattern.png);
 }
 
 #tabcontact {
-  padding-top : 50px; 
+  padding-top : 70px; 
   background-size: cover;
-  background-image: url(assets/img/logo/pattern1.png);
+  background-image: url(assets/img/bg_home.jpg);
   height: 750px;
 }
+
+#tcontact {
+  color: white;
+}
+
+.control-group {
+  color: white;
+}
+
 #tabongoingproject{
     /* background-image: url(assets/img/logo/pattern1.png); */
 }
@@ -144,14 +159,14 @@ body
   background-size: cover;
   padding-top: 30px;
   padding-bottom: 60px;
-  background-image: url(assets/img/logo/pattern1.png);
+  background-image: url(assets/img/pattern.png);
 }
 
 .box-light {
     padding-top: 30px;
     padding-right: 20px;
     padding-left: 20px;
-    background-color: #00AA99;
+    background-color: #FBC02D; /*warna orange*/
     border-radius: 3px;
 }
 
@@ -160,7 +175,7 @@ body
     padding-right: 20px;
     padding-left: 20px;
     padding-bottom: 20px;
-    background-color: #00AA99;
+    background-color: #FBC02D; /*warna orange*/
     color: #fff !important;
     border-radius: 3px;
 }
@@ -170,7 +185,7 @@ body
     padding-right: 5px;
     padding-left: 5px;
     padding-bottom: 5px;
-    background-color: #00AA99;
+    background-color: #FBC02D; /*warna orange*/
     border-radius: 3px;
     color: #fff !important;
 }
@@ -180,7 +195,7 @@ body
     padding-right: 5px;
     padding-left: 5px;
     padding-bottom: 5px;
-    background-color: #484443;
+    background-color: white;
     border-radius: 3px;
     color: #fff !important;
 }
@@ -191,7 +206,7 @@ body
 }
 
 .round-xlarge {
-    background-color: #00AA99;
+    background-color: #FBC02D;
     border-radius: 20px;
     height: 12px;
     margin-bottom: 0px;
@@ -331,12 +346,12 @@ footer {
     }
 
     .tombol:hover{
-      color: blue;
+      color: #FBC02D;
       font-weight: bolder;
     }
 
     .title {
-      font-family: cursive;
+      font-family: 'ubuntu', sans-serif;
       text-align: center;
       color: white;
       font-weight: bolder;
@@ -356,7 +371,7 @@ footer {
     }
 
     .buttonAbout {
-      background-color: #18BC9C;
+      background-color: #FBC02D;
     }
 
     .carousel-inner > .item > img,
@@ -364,5 +379,3 @@ footer {
       width: 70%;
       margin: auto;
   }
-
-
