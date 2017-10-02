@@ -1,0 +1,367 @@
+body
+{
+  font-family: 'ubuntu', sans-serif;
+  overflow-x: hidden;
+  position: relative;
+}
+
+
+/* navbar */
+#mainnav 
+{
+	font-weight: 700;
+	text-transform: uppercase;
+	border: none;
+	/* padding: 20px 0; */
+	background: transparent;
+	position: fixed;
+}
+
+#mainnav .navbar-brand {
+	font-size: 26px;
+	color: white;
+	font-weight: bold;
+
+}
+
+/* saat navbar brand on click */
+#mainnav .navbar-brand.active,#mainnav .navbar-brand:hover  
+{
+	color: #FBC02D;
+}
+
+/* saat navbar brand on click */
+#mainnav .navbar-brand:focus
+{
+
+	color: #F7B100; 
+/* 	background: transparent; */
+	color : #18BC9C;
+}
+/* memberi jarak spasi pada navbar nav */
+#mainnav .navbar-nav {
+	letter-spacing: 2px; 
+}
+
+/* memberi warna dan ukuran pada item navbar */
+.navbar-nav li.nav-item a.nav-link 
+{
+	color: white;
+	font-weight: bold;
+	font-size : 16px;
+}
+/* menambahkan warna hover ketika mouse melewati/melihat item */
+#mainnav .navbar-nav li.nav-item a.nav-link:hover 
+{
+	/*background: white;*/
+	/* color: #FBC02D; */
+	background: #FBC02D;
+	outline: none; 
+}
+/* menambahkan on click/focus pada item navbar */
+#mainnav .navbar-nav li.nav-item a.nav-link:focus 
+{
+	background: #18BC9C;
+}
+
+/* memberi warna pada item toggler */
+#mainnav .navbar-toggle {
+	font-size: 14px;
+	padding: 11px;
+	text-transform: uppercase;
+	color: white;
+	border-color: white; 
+}
+
+#mainnav .navbar-toggle:hover 
+{
+	color: #FBC02D;
+	background: transparent;
+	border-color: #FBC02D;
+}
+#mainnav .navbar-toggle:focus 
+{
+	color: #18BC9C;
+	border-color: white;
+}
+
+#tabhome { 
+  margin-bottom: 0;
+  text-align: center;
+  background-image: url(assets/img/logo/Bg_hom.jpg);
+  background-size: cover;
+  height: 850px;
+  padding : 70px 0 0 0;
+}
+
+.txtdec
+{
+  font-size: 60px;
+  font-weight: 100;
+  color : white;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 0px;
+}
+.banner{
+  padding-top: 150px;
+}
+
+
+#profile-picture {
+  padding-top: 10px;
+  margin: 0 auto;
+  
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+}
+
+#tababout {
+  background-size: cover;
+  /* background-image: url(assets/img/logo/pattern1.png); */
+  padding-top : 70px;
+  padding-bottom: 40px;
+}
+
+#tabportfolio{
+  padding-top : 70px;
+  background-size: cover;
+  /* background-color: #18BC9C; */
+  background-image: url(assets/img/logo/pattern1.png);
+}
+
+#tabcontact {
+  padding-top : 50px; 
+  background-size: cover;
+  background-image: url(assets/img/logo/pattern1.png);
+  height: 750px;
+}
+#tabongoingproject{
+    /* background-image: url(assets/img/logo/pattern1.png); */
+}
+#detail_profile {
+  background-size: cover;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  background-image: url(assets/img/logo/pattern1.png);
+}
+
+.box-light {
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: #00AA99;
+    border-radius: 3px;
+}
+
+.box-dark {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    background-color: #00AA99;
+    color: #fff !important;
+    border-radius: 3px;
+}
+
+.box-title-light {
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    background-color: #00AA99;
+    border-radius: 3px;
+    color: #fff !important;
+}
+
+.box-title-dark {
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    background-color: #484443;
+    border-radius: 3px;
+    color: #fff !important;
+}
+
+.profile {
+    color: #efe7de;
+    font-weight: bold;
+}
+
+.round-xlarge {
+    background-color: #00AA99;
+    border-radius: 5px;
+    height: 20px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+}
+
+.padding-icon {
+  padding-right: 20px;
+  color: #efe7de;
+}
+
+.padding-edu {
+  padding-right: 20px;
+  padding-left: 20px;
+  color: #484443;
+}
+
+.padding-img {
+  padding-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-text {
+  display: block;
+  margin-top: 0.25rem;
+}
+.form-control
+{
+  
+}
+
+#contactform{
+  align : middle;
+}
+
+footer {
+  background: rgb(40,40,40); 
+  text-align: center;
+  padding: 10px;
+  color : white;
+  /*you could also get rid of the .wrapper justify-content and use margin-top: auto*/
+}
+
+
+/*style aplikasi*/
+
+    .foto_aplikasi{
+      width: 350px;
+      height: 220px;
+      position: relative;
+    }
+
+    .foto_aplikasi img{
+      width: 100%;
+      height: 100%;
+    }
+
+    .image {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .middle > .overlay{
+      position: absolute;
+      bottom: 100%;
+      left: 0;
+      right: 0;
+      background-color: rgba(0,191,255,0.9);
+      overflow: hidden;
+      width: 100%;
+      height:0;
+      transition: .5s ease;
+    }
+
+    .left > .overlay {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background-color: rgba(138,43,226,0.9);
+        overflow: hidden;
+        width: 0;
+        height: 100%;
+        transition: .5s ease;
+    }
+
+    .right > .overlay {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 100%;
+        background-color: rgba(30,144,255,0.9);
+        overflow: hidden;
+        width: 0;
+        height: 100%;
+        transition: .5s ease;
+    }
+
+    .left:hover .overlay {
+        width: 100%;
+    }
+
+    .right:hover .overlay {
+        width: 100%;
+        left: 0;
+    }
+
+    .middle:hover .overlay {
+        bottom: 0;
+        height: 100%;
+    }
+
+    .text {
+        padding: 50px;
+        text-align: center;
+        width: 350px;
+        height: 220px;
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        overflow: hidden;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+    }
+
+    .tombol{
+      margin-top: 170px;
+      margin-left: 150px;
+      float: left;
+    }
+
+    .tombol:hover{
+      color: blue;
+      font-weight: bolder;
+    }
+
+    .title {
+      font-family: cursive;
+      text-align: center;
+      color: white;
+      font-weight: bolder;
+      padding: 2%;
+    }
+
+    #tabportfolio div > .col-md-4 {
+      margin: 2% 0% 2% 0%;
+    }
+
+    .text h5{
+      font-weight: bolder;
+    }
+
+    .text p{
+      font-size: 14px;
+    }
+
+    .buttonAbout {
+      background-color: #18BC9C;
+    }
+
+    .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+
+
