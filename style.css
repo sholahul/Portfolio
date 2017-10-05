@@ -127,12 +127,14 @@ body
   background-size: cover;
   /* background-image: url(assets/img/logo/pattern1.png); */
   padding-top : 70px;
-  padding-bottom: 40px;
+  padding-bottom: 50px;
 }
 
 #tabportfolio{
   padding-top : 70px;
+  margin-bottom: 50px;
   background-size: cover;
+  margin-left: 10%;
   /* background-color: #18BC9C; */
   background-image: url(assets/img/pattern.png);
 }
@@ -153,6 +155,8 @@ body
 }
 
 #tabongoingproject{
+  padding-top : 70px;
+  margin-bottom: 50px;
     /* background-image: url(assets/img/logo/pattern1.png); */
 }
 #detail_profile {
@@ -379,3 +383,15 @@ footer {
       width: 70%;
       margin: auto;
   }
+
+
+/* Smaller Screens */
+@media only screen and (max-width: 766px){
+  #tabportfolio{
+    margin-left: 2%;
+  }
+
+  #tabportfolio div > .col-md-4 {
+    margin: 2% 0% 2% 0%;
+  }
+}
