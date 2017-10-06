@@ -172,7 +172,7 @@ body
     padding-top: 30px;
     padding-right: 20px;
     padding-left: 20px;
-    background-color: #FBC02D; /*warna orange*/
+    background-color: #00AA99;
     border-radius: 3px;
 }
 
@@ -181,7 +181,7 @@ body
     padding-right: 20px;
     padding-left: 20px;
     padding-bottom: 20px;
-    background-color: #FBC02D; /*warna orange*/
+    background-color: #00AA99;
     color: #fff !important;
     border-radius: 3px;
 }
@@ -191,7 +191,7 @@ body
     padding-right: 5px;
     padding-left: 5px;
     padding-bottom: 5px;
-    background-color: #FBC02D; /*warna orange*/
+    background-color: #00AA99;
     border-radius: 3px;
     color: #fff !important;
 }
@@ -212,7 +212,7 @@ body
 }
 
 .round-xlarge {
-    background-color: #FBC02D;
+    background-color: #00AA99;
     border-radius: 20px;
     height: 12px;
     margin-bottom: 0px;
