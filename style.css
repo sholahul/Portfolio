@@ -88,6 +88,10 @@ body
   height: 850px;
   padding : 70px 0 0 0;
 }
+#slidedown{
+  color : white;
+  width: 400px;
+}
 
 .txtdec
 {
@@ -167,14 +171,13 @@ body
   color: white;
 }
 
-<<<<<<< HEAD
-=======
+
 #tabongoingproject{
   padding-top : 70px;
   margin-bottom: 50px;
     /* background-image: url(assets/img/logo/pattern1.png); */
 }
->>>>>>> 7a8de042d668695590c983336074aa4d1955a466
+
 #detail_profile {
   background-size: cover;
   padding-top: 30px;
