@@ -21,7 +21,6 @@ body
 	font-size: 26px;
 	color: white;
 	font-weight: bold;
-
 }
 
 /* saat navbar brand on click */
@@ -34,7 +33,7 @@ body
 #mainnav .navbar-brand:focus
 {
 
-	color: #F7B100; /*warna orange lebih gelep*/
+	color: #008975;
 }
 /* memberi jarak spasi pada navbar nav */
 #mainnav .navbar-nav {
@@ -51,13 +50,13 @@ body
 /* menambahkan warna hover ketika mouse melewati/melihat item */
 #mainnav .navbar-nav li.nav-item a.nav-link:hover 
 {
-	background: #FBC02D; /*warna orange*/
+	background: #00AA99; /*warna orange*/
 	outline: none; 
 }
 /* menambahkan on click/focus pada item navbar */
 #mainnav .navbar-nav li.nav-item a.nav-link:focus 
 {
-	background: #F7B100; /*warna orange lebih gelep*/
+	background: #008975; /*warna orange lebih gelep*/
 }
 
 /* memberi warna pada item toggler */
@@ -71,13 +70,13 @@ body
 
 #mainnav .navbar-toggle:hover 
 {
-	color: #FBC02D; /*warna orange*/
+	color: #00AA99; /*warna orange*/
 	background: transparent;
-	border-color: #FBC02D; /*warna orange*/
+	border-color: #00AA99; /*warna orange*/
 }
 #mainnav .navbar-toggle:focus 
 {
-	color: #FBC02D; /*warna orange*/
+	color: #00AA99; /*warna orange*/
 	border-color: white;
 }
 
@@ -103,12 +102,24 @@ body
   height:280px;
 }
 
+.garis
+{
+  border : 0;
+  height: 3px;
+  background-color: black;
+  background-size: 50px;
+  /*background-image: linear-gradient(to right,rgba(255,255,255,0),rgba(255,255,255,0.75),rgba(255,255,255,0));*/
+  max-width: 50px;
+  /* margin: 25px auto 30px; */
+  /* padding: 0; */
+}
+
 .garis2
 {
   border : 0;
-  height: 2px;
+  height: 3px;
   background-color: white;
-  background-size: 40px;
+  background-size: 50px;
   /*background-image: linear-gradient(to right,rgba(255,255,255,0),rgba(255,255,255,0.75),rgba(255,255,255,0));*/
   max-width: 50px;
   /* margin: 25px auto 30px; */
@@ -154,9 +165,6 @@ body
   color: white;
 }
 
-#tabongoingproject{
-    /* background-image: url(assets/img/logo/pattern1.png); */
-}
 #detail_profile {
   background-size: cover;
   padding-top: 30px;
@@ -168,7 +176,7 @@ body
     padding-top: 30px;
     padding-right: 20px;
     padding-left: 20px;
-    background-color: #FBC02D; /*warna orange*/
+    background-color: #00AA99;
     border-radius: 3px;
 }
 
@@ -177,7 +185,7 @@ body
     padding-right: 20px;
     padding-left: 20px;
     padding-bottom: 20px;
-    background-color: #FBC02D; /*warna orange*/
+    background-color: #00AA99;
     color: #fff !important;
     border-radius: 3px;
 }
@@ -187,7 +195,7 @@ body
     padding-right: 5px;
     padding-left: 5px;
     padding-bottom: 5px;
-    background-color: #FBC02D; /*warna orange*/
+    background-color: #00AA99;
     border-radius: 3px;
     color: #fff !important;
 }
@@ -197,18 +205,18 @@ body
     padding-right: 5px;
     padding-left: 5px;
     padding-bottom: 5px;
-    background-color: #484443;
+    background-color: #00AA99;
     border-radius: 3px;
     color: #fff !important;
 }
 
 .profile {
-    color: #efe7de;
+    color: white;
     font-weight: bold;
 }
 
 .round-xlarge {
-    background-color: #FBC02D;
+    background-color: #00AA99;
     border-radius: 20px;
     height: 12px;
     margin-bottom: 0px;
@@ -218,7 +226,7 @@ body
 
 .padding-icon {
   padding-right: 20px;
-  color: #efe7de;
+  color: white;
 }
 
 .padding-edu {
@@ -348,7 +356,7 @@ footer {
     }
 
     .tombol:hover{
-      color: #FBC02D;
+      color: #00AA99;
       font-weight: bolder;
     }
 
@@ -373,7 +381,8 @@ footer {
     }
 
     .buttonAbout {
-      background-color: #FBC02D;
+      background-color: #00AA99;
+      color: white;
     }
 
     .carousel-inner > .item > img,
