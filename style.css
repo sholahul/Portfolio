@@ -178,139 +178,68 @@ body
     /* background-image: url(assets/img/logo/pattern1.png); */
 }
 
-#detail_profile {
-  background-size: cover;
-  padding-top: 30px;
-  padding-bottom: 60px;
-  background-image: url(assets/img/pattern.png);
-}
+/*style about*/
 
-.box-light {
-    padding-top: 30px;
-    padding-right: 20px;
-    padding-left: 20px;
-    background-color: #00AA99;
-    border-radius: 3px;
-}
+    .carousel {
+        margin-bottom: 0;
+        padding: 0 40px 30px 40px;
+    }
+    /* The controlsy */
+    .carousel-control {
+      left: -12px;
+        height: 40px;
+      width: 40px;
+        background: none repeat scroll 0 0 #222222;
+        border: 4px solid #FFFFFF;
+        border-radius: 23px 23px 23px 23px;
+        margin-top: 90px;
+    }
+    .carousel-control.right {
+      right: -12px;
+    }
+    /* The indicators */
+    .carousel-indicators {
+      right: 50%;
+      top: auto;
+      bottom: -10px;
+      margin-right: -19px;
+    }
+    /* The colour of the indicators */
+    .carousel-indicators li {
+      background: #cecece;
+    }
+    .carousel-indicators .active {
+    background: #428bca;
+    }
 
-.box-dark {
-    padding-top: 20px;
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-bottom: 20px;
-    background-color: #00AA99;
-    color: #fff !important;
-    border-radius: 3px;
-}
+    .zoom-effect {  
+      position: relative;
+      margin: 0 auto;
+      height: 310px;
+      width: 333.328px;
+      overflow: hidden;  
+    }
 
-.box-title-light {
-    padding-top: 5px;
-    padding-right: 5px;
-    padding-left: 5px;
-    padding-bottom: 5px;
-    background-color: #00AA99;
-    border-radius: 3px;
-    color: #fff !important;
-}
+    .kotak {
+      padding-top: 10px;
+      position: relative;
+      top: 0;
+      left: 0;
+      height: 200px;
+    }
+     
+    .kotak img {
+      -webkit-transition: 0.4s ease;
+      transition: 0.4s ease;
+      width: 140px;
+      height: 140px;
+    }
 
-.box-title-dark {
-    padding-top: 5px;
-    padding-right: 5px;
-    padding-left: 5px;
-    padding-bottom: 5px;
-    background-color: #00AA99;
-    border-radius: 3px;
-    color: #fff !important;
-}
-
-.profile {
-    color: white;
-    font-weight: bold;
-}
-
-.round-xlarge {
-    background-color: #00AA99;
-    border-radius: 20px;
-    height: 12px;
-    margin-bottom: 0px;
-    margin-left: 20px;
-    font-size: 10px;
-}
-
-.padding-icon {
-  padding-right: 20px;
-  color: white;
-}
-
-.padding-edu {
-  padding-right: 20px;
-  padding-left: 20px;
-  color: #484443;
-}
-
-.padding-img {
-  padding-bottom: 20px;
-}
-
-.carousel {
-    margin-bottom: 0;
-    padding: 0 40px 30px 40px;
-}
-/* The controlsy */
-.carousel-control {
-  left: -12px;
-    height: 40px;
-  width: 40px;
-    background: none repeat scroll 0 0 #222222;
-    border: 4px solid #FFFFFF;
-    border-radius: 23px 23px 23px 23px;
-    margin-top: 90px;
-}
-.carousel-control.right {
-  right: -12px;
-}
-/* The indicators */
-.carousel-indicators {
-  right: 50%;
-  top: auto;
-  bottom: -10px;
-  margin-right: -19px;
-}
-/* The colour of the indicators */
-.carousel-indicators li {
-  background: #cecece;
-}
-.carousel-indicators .active {
-background: #428bca;
-}
-
-.zoom-effect {  
-  position: relative;
-  margin: 0 auto;
-  height: 310px;
-  width: 333.328px;
-  overflow: hidden;  
-}
-
-.kotak {
-  padding-top: 10px;
-  position: relative;
-  top: 0;
-  left: 0;
-  height: 200px;
-}
- 
-.kotak img {
-  -webkit-transition: 0.4s ease;
-  transition: 0.4s ease;
-  width: 140px;
-  height: 140px;
-}
-
-.zoom-effect:hover .kotak img {
-  -webkit-transform: scale(1.15);
-  transform: scale(1.15);
-}
+    .zoom-effect:hover .kotak img {
+      -webkit-transform: scale(1.15);
+      transform: scale(1.15);
+    }
+/*=======*/
 
 .form-group {
   margin-bottom: 1rem;

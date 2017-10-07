@@ -1,0 +1,73 @@
+#detail_profile {
+  background-size: cover;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  background-image: url(assets/img/pattern.png);
+}
+
+.box-light {
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: #00AA99;
+    border-radius: 3px;
+}
+
+.box-dark {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    background-color: #00AA99;
+    color: #fff !important;
+    border-radius: 3px;
+}
+
+.box-title-light {
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    background-color: #00AA99;
+    border-radius: 3px;
+    color: #fff !important;
+}
+
+.box-title-dark {
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    background-color: #00AA99;
+    border-radius: 3px;
+    color: #fff !important;
+}
+
+.profile {
+    color: white;
+    font-weight: bold;
+}
+
+.round-xlarge {
+    background-color: #00AA99;
+    border-radius: 20px;
+    height: 12px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    font-size: 10px;
+}
+
+.padding-icon {
+  padding-right: 20px;
+  color: white;
+}
+
+.padding-edu {
+  padding-right: 20px;
+  padding-left: 20px;
+  color: #484443;
+}
+
+.padding-img {
+  padding-bottom: 20px;
+}
