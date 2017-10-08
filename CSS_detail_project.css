@@ -1,23 +1,22 @@
-		#bg {
+#bg {
 		  	position: fixed;
 		  	min-width: 100%;
 		  	min-height: 100%;
 			opacity: 0.6;}
-		.img_process{
+		.img-process{
 			height: 100%;
 			width: 100%;
-			position: relative;
-		}
+			position: relative;}
 		section{
 		 padding: 30px 0;}
 			section h2.section-heading {
-			    font-size: 40px;
+			    font-size: 35px;
 			    margin-top: 0;
 			    margin-bottom: 15px;
 			    padding-top: 50px;
 	    		padding-bottom: 10px; }
 			section h3.section-subheading {
-			    font-size: 16px;
+			    font-size: 18px;
 			    font-weight: 400;
 			    font-style: italic;
 			    margin-bottom: 75px;
@@ -25,6 +24,9 @@
 			    padding-right: 130px;
     			padding-left: 130px;
 			    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+		p.text-muted{
+			font-size: 15px;
+		}
 		.timeline {
 		  position: relative;
 		  padding: 0;
@@ -37,7 +39,6 @@
 			    width: 2px;
 			    margin-left: -1.5px;
 			    content: '';
-			    background-color: #a3a3a3;
 			    left: 50%;}
 		  	.timeline > li {
 			   	position: relative;
