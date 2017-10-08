@@ -19,11 +19,30 @@
 </head>
 <body >
 
-	<section id="detail_aplikasi">
+	<nav class="navbar navbar-inverse navbar-fixed-top navbar_detail" id="mainnav" data-spy="affix" data-offset-top="200">
 		<div class="container">
-			<h2>Portfolio</h2>		
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#page-top"><i class="fa fa-home"> Dazzle</i></a>
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#MyNavbar" aria-controls="MyNavbar" aria-expanded="false" aria-label="Toggle Navigation">Menu
+				<i class="fa fa-bars"></i>
+				</button>
+			</div>
+			
+			<div class="collapse navbar-collapse navbar-right" id="MyNavbar">
+				<ul class="nav navbar-nav">
+					<li class="nav-item"><a class="nav-link" href="#tababout" onclick="about()">About</a></li>
+					<li class="nav-item"><a class="nav-link" href="#tabportfolio" onclick="achievement()">Achievement</a></li>
+					<li class="nav-item"><a class="nav-link" href="#tabongoingproject" onclick="ongoingproject()">On Going Project</a></li>
+					<li class="nav-item"><a class="nav-link" href="#tabcontact" onclick="contact()">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
 
-			<div class="row" style="margin-top: 3%;">
+	<section id="detail_aplikasi">
+		<div class="container">	
+
+			<div class="row" style="margin-top: 7%; margin-bottom: 1%;">
 				<div class="col-xs-6 col-md-6 col-sm-6 col-lg-6 leftdes">
 					<div class="foto_detail_apps">
 						<img src="assets/img/aplikasi/Aplikasi Converter for windows.png" alt="Image Detail Application" id="myImg">
@@ -100,6 +119,21 @@
 		span.onclick = function() { 
 		  modal.style.display = "none";
 		}
+		function about() {
+            window.location = 'index.html#tababout';
+        }
+
+        function achievement() {
+        	window.location = 'index.html#tabportfolio';
+        }
+
+        function ongoingproject(){
+        	window.location = 'index.html#tabongoingproject';
+        }
+
+        function contact(){
+        	window.location = 'index.html#tabcontact';
+        }
 	</script>
 
 		<!-- Footer -->
