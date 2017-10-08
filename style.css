@@ -80,6 +80,13 @@ body
 	border-color: white;
 }
 
+/*navbar detail*/
+.subnav .navbar-brand {
+  font-size: 26px;
+  color: white;
+  font-weight: bold;
+}
+
 #tabhome { 
   margin-bottom: 0;
   text-align: center;
