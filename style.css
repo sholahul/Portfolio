@@ -441,17 +441,13 @@ footer {
         text-align: center;
         white-space: nowrap; 
         color: #fff;
-        font-size: 16px;
+        font-size: 15px;
         position: absolute;
         overflow: hidden;
-        top: 50%;
+        top: 65%;
         left: 50%;
         transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
-      }
-      .tombol_project{
-        margin-top: 140px;
-        margin-left: 198px;
       }
 
 
