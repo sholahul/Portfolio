@@ -12,6 +12,27 @@
 </head>
 <body>
 	<img src="assets/img/pattern1.png" id="bg">
+
+  <nav class="navbar navbar-inverse navbar-fixed-top navbar_detail" id="mainnav" data-spy="affix" data-offset-top="200">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#page-top" onclick="dazzle()"><i class="fa fa-home"> Dazzle</i></a>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#MyNavbar" aria-controls="MyNavbar" aria-expanded="false" aria-label="Toggle Navigation">Menu
+        <i class="fa fa-bars"></i>
+        </button>
+      </div>
+      
+      <div class="collapse navbar-collapse navbar-right" id="MyNavbar">
+        <ul class="nav navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#tababout" onclick="about()">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#tabportfolio" onclick="achievement()">Achievement</a></li>
+          <li class="nav-item"><a class="nav-link" href="#tabongoingproject" onclick="ongoingproject()">On Going Project</a></li>
+          <li class="nav-item"><a class="nav-link" href="#tabcontact" onclick="contact()">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
 	<!-- About -->
     <section id="detail_project">
       <div class="container">
@@ -82,8 +103,31 @@
         </div>
       </div>
     </section>
+
     <footer class="footer">
 	        Copyright &copy; Dazzle 2017
 	    </footer>
+
+    <script type="text/javascript">
+        function about() {
+            window.location = 'index.html#tababout';
+        }
+
+        function achievement() {
+          window.location = 'index.html#tabportfolio';
+        }
+
+        function ongoingproject(){
+          window.location = 'index.html#tabongoingproject';
+        }
+
+        function contact(){
+          window.location = 'index.html#tabcontact';
+        }
+
+        function dazzle(){
+          window.location = 'index.html';
+        }
+    </script>
 </body>
 </html>
