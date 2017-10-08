@@ -6,6 +6,12 @@
   	background-image: url(assets/img/pattern.png);
 }
 
+.navbar_detail{
+	background-color: #222 !important;
+  	border-color: #080808;
+  	color: #9d9d9d;
+}
+
 .leftdes{
 	border-radius: 10px;
 	background: rgb(211,211,211);
