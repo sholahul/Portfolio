@@ -9,6 +9,12 @@ td {
   background-image: url(assets/img/pattern.png);
 }
 
+.navbar_detail{
+  background-color: #222 !important;
+    border-color: #080808;
+    color: #9d9d9d;
+}
+
 .box-light {
     padding-top: 15px;
     padding-right: 20px;
