@@ -158,6 +158,7 @@ body
   padding-top : 70px;
   margin-bottom: 50px;
   background-size: cover;
+  margin-left: 7%;
   /* background-color: #18BC9C; */
   background-image: url(assets/img/pattern.png);
 }
@@ -341,7 +342,7 @@ footer {
     }
 
     .text {
-        padding: 50px;
+        padding: 40px;
         text-align: center;
         width: 350px;
         height: 220px;
@@ -353,6 +354,7 @@ footer {
         left: 50%;
         transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
+        
     }
 
     .tombol{
@@ -438,7 +440,6 @@ footer {
       }
       .text {
         text-align: center;
-        white-space: nowrap; 
         color: #fff;
         font-size: 15px;
         position: absolute;
