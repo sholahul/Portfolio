@@ -26,3 +26,10 @@ $(document).ready(function(){
       });
   });
 });
+
+// corousel about
+$(document).ready(function() {
+  $('#Carousel').carousel({
+    interval: 5000
+  })
+});
